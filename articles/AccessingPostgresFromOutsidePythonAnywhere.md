@@ -97,7 +97,7 @@ and then use code like this:
     sshtunnel.TUNNEL_TIMEOUT = 5.0
 
     with sshtunnel.SSHTunnelForwarder(
-        ('ssh.pythonanywhere.com'),
+        ('ssh.pythonanywhere.com'), # OR 'ssh.eu.pythonanywhere.com' if using eu.pythonanywhere.com
         ssh_username='your PythonAnywhere username', ssh_password='the password you use to log in to the PythonAnywhere website',
         remote_bind_address=('your PythonAnywhere database hostname, eg. yourusername-1234.postgres.pythonanywhere-services.com', the port on the databases page)
     ) as tunnel:
