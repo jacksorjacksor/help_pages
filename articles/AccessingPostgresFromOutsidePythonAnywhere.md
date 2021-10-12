@@ -67,7 +67,7 @@ and give the connection a name on the "General" tab, then set up the stuff on th
 
 | Setting            | Value                                                           |
 |--------------------|-----------------------------------------------------------------|
-| Host name/address: | localhost                                                       |
+| Host name/address: | 127.0.0.1                                                       |
 | Port:              | 9999                                                            |
 | Username:          | **any user you have set up on your Postgres server, eg. super** |
 | Password:          | **the password corresponding to that user**                     |
